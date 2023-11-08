@@ -17,13 +17,13 @@ const Pages = () => {
             <Router>
                 <Header/>
                 <Switch>
-                    <Route exact path="/Portfolio/" component={Home} />
-                    <Route exact path="/Portfolio/about" component={About} />
-                    <Route exact path="/Portfolio/services" component={Services} />
-                    <Route exact path="/Portfolio/portfolio" component={Portfolio} />
-                    <Route exact path="/Portfolio/testimonials" component={Testimonials} />
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/services" component={Services} />
+                    <Route exact path="/portfolio" component={Portfolio} />
+                    <Route exact path="/testimonials" component={Testimonials} />
                     {/*<Route exact path="/Portfolio/blog" component={Blog} />*/}
-                    <Route exact path="/Portfolio/contact" component={Contact} />
+                    <Route exact path="/contact" component={Contact} />
                 </Switch>
                 <Footer />
             </Router>

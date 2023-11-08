@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
                     <div className={responsive ? 'hideMenu' :'nav'}>
                         {navlink.map((link,idx)=>(
-                                <Link to={`/Portfolio/${link.url}`} key={idx}>{link.text}</Link>
+                                <Link to={`/${link.url}`} key={idx}>{link.text}</Link>
                             )
                         )}
                     </div>

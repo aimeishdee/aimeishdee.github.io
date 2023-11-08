@@ -7,8 +7,12 @@ import Portfolio from '../Portfolio/Portfolio'
 import Testimonials from '../Testimonials/Testimonials'
 // import Blog from '../Blog/Blog'
 import Contact from '../Contact/Contact'
+import { useEffect } from 'react'
 
 const Home = () => {
+    useEffect(() => {
+        console.log("sdf");
+    }, [])
     return (
         <>
             <Hero />
