@@ -20,7 +20,7 @@ const Contact = () => {
         e.preventDefault();
         send(
             'service_g0nd4l1',
-            'template_pilu0ci',
+            'template_i4cjm2s',
             toSend,
             'nn93zhMDLJEjy-a62'
             )

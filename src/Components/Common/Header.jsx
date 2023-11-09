@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import {Link} from "react-router-dom";
 import { Menu } from '@mui/icons-material';
-import logo from "../../Assets/OneWeb_Logo.png"
+import logo from "../../Assets/logo.png"
 import { navlink } from './data';
 
 

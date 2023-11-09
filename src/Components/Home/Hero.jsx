@@ -17,6 +17,7 @@ const Hero = () => {
                                                 }} />
                         </h1>
                         <p data-aos='fade-left'>{val.desc}</p>
+                        {/*  cv link  */}
                         <a href="https://drive.google.com/u/1/uc?id=1NWWp2JgJvJuQ_xx48yhClG0UwguvIZs7&export=download" target="_blank" rel="noreferrer"><button className="primaryBtn" data-aos='fade-up-right'>Download CV</button></a>
                     </div>
                 )) }

@@ -4,6 +4,16 @@
     font-family: 'IBM Plex Serif', serif;
 */
 
+@font-face {
+  font-family: lob;
+  src: url("./a.ttf");
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url("./u.ttf");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +22,7 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
+  --primaryColor: #e00dc7;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -22,7 +32,7 @@
 body {
   background-color: var(--headingColor);
   color: var(--white);
-  font-family: 'IBM Plex Serif', serif;
+  font-family: ubuntu;
 }
 
 a {
@@ -107,7 +117,11 @@ header a{
 .logo > img{
   margin: 10px 0px;
   width: 150px;
-  height: 50px;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+  margin-top: -7px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -155,6 +169,7 @@ section{
 
 .hero{
   position: relative;
+  font-family: lob;
 }
 
 .hero::after{
@@ -168,6 +183,7 @@ section{
   z-index: -1;
   width: 100%;
   height: 90vh;
+  filter: saturate(0.1);
 }
 
 .heroContainer{
@@ -179,13 +195,14 @@ section{
 .hero h1{
   font-size: 60px;
   font-weight: 700;
-  font-family: 'Teko', sans-serif;
+  font-family: lob;
   color: var(--primaryColor);
 }
 
 /*****************************************************************/
 
 .heading{
+
   font-size:30px;
   color: var(--primaryColor);
   font-weight: 600;
