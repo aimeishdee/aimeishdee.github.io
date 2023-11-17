@@ -17,7 +17,7 @@ const About = () => {
                                 <p>{val.desc}</p>
                                 <p>{val.desc1}</p>
                                 <p>{val.desc2}</p>
-                                <a href="https://drive.google.com/u/1/uc?id=1NWWp2JgJvJuQ_xx48yhClG0UwguvIZs7&export=download" target="_blank" rel="noreferrer"><button data-aos='fade-up-right'>Download CV</button></a>
+                                <a href="https://drive.google.com/file/d/13akOsQgLLjpGsXlleVloM1bZOUQhq426/view?usp=sharing" target="_blank" rel="noreferrer"><button data-aos='fade-up-right'>Download CV</button></a>
                                 
                             </div>
                         </Fragment>
